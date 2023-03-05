@@ -3,18 +3,9 @@
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
 import plotly.express as px
-from PIL import Image
 from streamlit_plotly_events import plotly_events
-import streamlit as st
 import plotly.graph_objs as go
-import matplotlib.pyplot as plt
-import numpy as np
-import streamlit as st
-import plotly.express as px
-import pandas as pd
 
 # Set page configuration
 st.set_page_config(page_title="My Streamlit App", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
