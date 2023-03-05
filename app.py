@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="Welcome to my website")
+def app():
+    st.write("Hello, World!")
 
-st.write("""
-# Welcome to my website
-""")
+if __name__ == "__main__":
+    app()
