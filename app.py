@@ -1,4 +1,7 @@
 import streamlit as st
 
-st.title('My First Streamlit App')
-st.write('Welcome to my app!')
+st.set_page_config(page_title="Welcome to my website")
+
+st.write("""
+# Welcome to my website
+""")
