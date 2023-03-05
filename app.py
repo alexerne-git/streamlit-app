@@ -234,7 +234,8 @@ if data is not None:
                     
         with col2:
 
-            video_id_url = 'https://drive.google.com/file/d/1DNb4vXiFBLENkoPKtZeIrtKFpAlQKWfd' # entry["link"]
+            video_id_url = entry["link"]
+            
         
             url = f"{video_id_url}/preview"
             st.write(f'<iframe src="{url}" width="640" height="480"></iframe>', unsafe_allow_html=True)
